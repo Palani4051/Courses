@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.div1{
+
+    display: grid;
+    padding: 5px;
+    grid-auto-flow: column;
+   border: 2px solid black;
+   grid-template-columns: 1fr 1fr;
+   margin: 5px;
+
+}
+ .Course{
+    
+    place-self: center start;
+
+
+}
+.Viewall
+{
+    place-self: end;
+
+}
+.div2{
+    display: flex;
+    border: 2px solid green;
+}
+.div2 p{
+    flex-grow: 1;
+}
+
+
+.div3{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    margin: 5px;
+    padding: 5px;
+    gap: 10px;
+}
+.div3-0{
+    display: flex;
+    gap: 10px;
+}
+.Course1{
+    width: 30% !important;
+    color: green;
+}
+.div3-0>p{
+width: 23.33%;
+}
+.div3-1{
+    display: flex;
+    gap: 10px;
+}
+.div3-1 i{
+    align-self: center;
+    font-size: 25px;
+    border: 2px solid white;
+    background-color: plum;
+    border-radius: 5px;
+    padding: 5px;
+}
+.div3-1-1{
+   width: 30%;
+}
+.para{
+    width: 23.33%;
+    align-self: flex-start;
+}
+.div3-2{
+    display: flex;
+    gap: 10px;
+}
+.div3-2 i{
+    align-self: center;
+    font-size: 25px;
+    border: 2px solid white;
+    background-color: plum;
+    border-radius: 5px;
+    padding: 5px;
+}
+.div3-2-1{
+    width: 30%;
+}
+.div3-3{
+    display: flex;
+    gap: 10px;
+
+}
+.div3-3 i{
+    align-self: center;
+    font-size: 25px;
+    border: 2px solid white;
+    background-color: plum;
+    border-radius: 5px;
+    padding: 5px;
+}
+.div3-3-1{
+    width: 30%;
+}
+.div3-4{
+    display: flex;
+    gap: 10px;
+}
+.div3-4 i{
+    align-self: center;
+    font-size: 25px;
+    border: 2px solid white;
+    background-color: plum;
+    border-radius: 5px;
+    padding: 5px;
+}
+.div3-4-1{
+    width: 30%;
+}
+.div3-5{
+    display: flex;
+    gap: 10px;
+}
+.div3-5 i{
+    align-self: center;
+    font-size: 25px;
+    border: 2px solid white;
+    background-color: plum;
+    border-radius: 5px;
+    padding: 5px;
+}
+.div3-5-1{
+    width: 30%;
+}
+
+
